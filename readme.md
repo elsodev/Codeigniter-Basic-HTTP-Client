@@ -9,7 +9,7 @@ Place **HttpClient.php** into your application/libraries
 
 ## Usages
 
-** Initialization **
+**Initialization**
 
 ```php
 
@@ -27,7 +27,7 @@ $this->load->library('HttpClient', array(
 
 ```
 
-** POST **
+**POST**
 
 ```php
 
@@ -39,7 +39,7 @@ if($this->httpclient->post()){
 
 ```
 
-** GET **
+**GET**
 
 ```php
 //the only difference is ->get()
@@ -51,7 +51,7 @@ if($this->httpclient->get()){
 
 ```
 
-** Set Options **
+**Set Options**
 
 During library load, supplying parameters is optional. You can do it later with setOptions() method.
 
@@ -71,14 +71,14 @@ $this->httpclient->setOptions(
 ));
 ```
 
-** Getting Results **
+**Getting Results**
 
 This library provide two ways to obtain results.
 
 1. getResults(); which returns string
 2. getResultsArray(); which returns results in array if response is in JSON format.
 
-** Errors **
+**Errors**
 
 To check for error :
 
@@ -95,4 +95,4 @@ To get error message :
 ```
 
 ## Enjoy
-** Follow me on Twitter [@elsodev](http://twitter.com/elsodev) for more updates **
+**Follow me on Twitter [@elsodev](http://twitter.com/elsodev) for more updates**
